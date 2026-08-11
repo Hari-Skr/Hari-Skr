@@ -53,7 +53,7 @@ I’m passionate about building **intelligent systems** that combine machine lea
 
 ### 🗄 Databases & DevOps
 <p>
-  <img src="https://skillicons.dev/icons?i=postgres,mysql,mongodb,cassandra,docker,linux,git,postman,jest" />
+  <img src="https://skillicons.dev/icons?i=postgres,mysql,mongodb,cassandra,docker,linux,git,jest" />
 </p>
 
 ---
