@@ -1,42 +1,78 @@
-<svg fill="none" viewBox="0 0 850 480" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
+<svg fill="none" viewBox="0 0 920 540" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
   <foreignObject width="100%" height="100%">
     <div xmlns="http://www.w3.org/1999/xhtml">
       <style>
-        .terminal {
+        .window {
           background-color: #1a1b26;
           font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
           color: #a9b1d6;
-          padding: 24px;
-          border-radius: 12px;
+          border-radius: 14px;
           border: 1px solid #3b4261;
-          box-shadow: 0 10px 30px rgba(0,0,0,0.5);
-          display: flex;
-          gap: 30px;
+          box-shadow: 0 20px 40px rgba(0,0,0,0.6);
+          width: 920px;
+          height: 540px;
           box-sizing: border-box;
-          width: 850px;
-          height: 480px;
+          overflow: hidden;
+          display: flex;
+          flex-direction: column;
+        }
+        .header {
+          background-color: #16161e;
+          padding: 12px 16px;
+          display: flex;
+          align-items: center;
+          border-bottom: 1px solid #3b4261;
+        }
+        .buttons {
+          display: flex;
+          gap: 8px;
+        }
+        .btn {
+          width: 12px;
+          height: 12px;
+          border-radius: 50%;
+        }
+        .btn-close { background-color: #f7768e; }
+        .btn-minimize { background-color: #e0af68; }
+        .btn-maximize { background-color: #9ece6a; }
+        
+        .title {
+          margin: 0 auto;
+          font-size: 13px;
+          color: #565f89;
+          font-weight: 600;
+          letter-spacing: 0.5px;
+        }
+        
+        .body {
+          padding: 30px 35px;
+          display: flex;
+          gap: 40px;
+          align-items: flex-start;
         }
         .ascii {
           color: #7aa2f7;
-          font-size: 11px;
-          line-height: 1.2;
+          font-size: 11.5px;
+          line-height: 1.25;
           white-space: pre;
           font-weight: bold;
+          filter: drop-shadow(0 2px 4px rgba(0,0,0,0.3));
         }
         .info-container {
           display: flex;
           flex-direction: column;
-          gap: 6px;
-          font-size: 13px;
+          gap: 7px;
+          font-size: 13.5px;
           width: 100%;
         }
         .user {
           color: #bb9af7;
           font-weight: bold;
-          font-size: 15px;
-          border-bottom: 1px solid #3b4261;
-          padding-bottom: 4px;
+          font-size: 16px;
+          border-bottom: 1px dashed #3b4261;
+          padding-bottom: 6px;
           margin-bottom: 4px;
+          letter-spacing: 0.5px;
         }
         .key {
           color: #7dcfff;
@@ -48,12 +84,25 @@
         .section {
           color: #e0af68;
           font-weight: bold;
-          margin-top: 4px;
+          margin-top: 8px;
+          font-size: 14px;
+          border-bottom: 1px solid rgba(224, 175, 104, 0.2);
+          padding-bottom: 2px;
         }
       </style>
       
-      <div class="terminal">
-        <div class="ascii">
+      <div class="window">
+        <div class="header">
+          <div class="buttons">
+            <div class="btn btn-close"></div>
+            <div class="btn btn-minimize"></div>
+            <div class="btn btn-maximize"></div>
+          </div>
+          <div class="title">hari@sankar: ~ (zsh)</div>
+        </div>
+        
+        <div class="body">
+          <div class="ascii">
       gM'@%%ONw.,
     .M' ||  *%%gNM=]mMqg||N,
    p!  ' |  ||"""'| |||jhljsw
@@ -79,24 +128,24 @@
   @@@@@@@@%%kgki!||jjjj%k@
   ^[''  @@@@HHb%k(illljkjY%%% ;
  =[          ' HH%%H@gkilljjkk%%%.
-        </div>
-        
-        <div class="info-container">
-          <div class="user">hari@sankar ───────────────</div>
-          <div><span class="key">OS:</span> <span class="value">Linux, Ubuntu / macOS</span></div>
-          <div><span class="key">Uptime:</span> <span class="value">Leveling up daily</span></div>
-          <div><span class="key">Role:</span> <span class="value">AI Engineer &amp; Full-Stack</span></div>
-          <div><span class="key">IDE:</span> <span class="value">Neovim, VS Code</span></div>
+          </div>
           
-          <div class="section">Languages</div>
-          <div><span class="key">Primary:</span> <span class="value">Python, Go, TypeScript</span></div>
-          <div><span class="key">Backend:</span> <span class="value">Node.js, Express, Fastify</span></div>
-          <div><span class="key">AI/ML:</span> <span class="value">PyTorch, Scikit-Learn</span></div>
-          
-          <div class="section">Interests</div>
-          <div><span class="key">Code:</span> <span class="value">Bun + Elysia.js apps</span></div>
-          <div><span class="key">SciFi:</span> <span class="value">Arthur C. Clarke novels</span></div>
-          <div><span class="key">Fitness:</span> <span class="value">Home workouts &amp; discipline</span></div>
+          <div class="info-container">
+            <div class="user">hari@sankar ⚡ environment</div>
+            <div><span class="key">OS:</span> <span class="value">Linux, Ubuntu / macOS</span></div>
+            <div><span class="key">Uptime:</span> <span class="value">Leveling up daily</span></div>
+            <div><span class="key">Role:</span> <span class="value">AI Engineer &amp; Full-Stack Dev</span></div>
+            <div><span class="key">IDE:</span> <span class="value">Neovim, VS Code</span></div>
+            
+            <div class="section">Languages &amp; Core</div>
+            <div><span class="key">Primary:</span> <span class="value">Python, Go, TypeScript</span></div>
+            <div><span class="key">Backend:</span> <span class="value">Node.js, Express, Fastify</span></div>
+            <div><span class="key">AI / ML:</span> <span class="value">PyTorch, Scikit-Learn, LangChain</span></div>
+            
+            <div class="section">Interests &amp; Focus</div>
+            <div><span class="key">Hobbies:</span> <span class="value">Bun + Elysia.js, Sci-Fi, Fitness</span></div>
+            <div><span class="key">Contact:</span> <span class="value">epicgeek11@gmail.com</span></div>
+          </div>
         </div>
       </div>
     </div>
