@@ -1,158 +1,61 @@
-<svg fill="none" viewBox="0 0 1000 580" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
-  <foreignObject width="100%" height="100%">
-    <div xmlns="http://www.w3.org/1999/xhtml">
-      <style>
-        .window {
-          background-color: #1a1b26;
-          font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
-          color: #a9b1d6;
-          border-radius: 16px;
-          border: 1px solid #3b4261;
-          box-shadow: 0 25px 50px rgba(0,0,0,0.7);
-          width: 1000px;
-          height: 580px;
-          box-sizing: border-box;
-          overflow: hidden;
-          display: flex;
-          flex-direction: column;
-        }
-        .header {
-          background-color: #16161e;
-          padding: 14px 20px;
-          display: flex;
-          align-items: center;
-          border-bottom: 1px solid #3b4261;
-        }
-        .buttons {
-          display: flex;
-          gap: 10px;
-        }
-        .btn {
-          width: 14px;
-          height: 14px;
-          border-radius: 50%;
-        }
-        .btn-close { background-color: #f7768e; }
-        .btn-minimize { background-color: #e0af68; }
-        .btn-maximize { background-color: #9ece6a; }
-        
-        .title {
-          margin: 0 auto;
-          font-size: 14px;
-          color: #7aa2f7;
-          font-weight: 600;
-          letter-spacing: 0.6px;
-        }
-        
-        .body {
-          padding: 35px 40px;
-          display: flex;
-          gap: 45px;
-          align-items: flex-start;
-        }
-        .ascii {
-          color: #7aa2f7;
-          font-size: 12px;
-          line-height: 1.25;
-          white-space: pre;
-          font-weight: bold;
-          filter: drop-shadow(0 3px 6px rgba(0,0,0,0.4));
-        }
-        .info-container {
-          display: flex;
-          flex-direction: column;
-          gap: 9px;
-          font-size: 14px;
-          width: 100%;
-        }
-        .user {
-          color: #bb9af7;
-          font-weight: bold;
-          font-size: 18px;
-          border-bottom: 1px dashed #3b4261;
-          padding-bottom: 8px;
-          margin-bottom: 6px;
-          letter-spacing: 0.5px;
-        }
-        .key {
-          color: #7dcfff;
-          font-weight: bold;
-        }
-        .value {
-          color: #c0caf5;
-        }
-        .link-value {
-          color: #7aa2f7;
-          text-decoration: underline;
-        }
-        .section {
-          color: #e0af68;
-          font-weight: bold;
-          margin-top: 10px;
-          font-size: 15px;
-          border-bottom: 1px solid rgba(224, 175, 104, 0.25);
-          padding-bottom: 4px;
-        }
-      </style>
-      
-      <div class="window">
-        <div class="header">
-          <div class="buttons">
-            <div class="btn btn-close"></div>
-            <div class="btn btn-minimize"></div>
-            <div class="btn btn-maximize"></div>
-          </div>
-          <div class="title">hari@sankar: ~ (zsh) — Hari-Skr.github.io</div>
-        </div>
-        
-        <div class="body">
-          <div class="ascii">
-      gM'@%%ONw.,
-    .M' ||  *%%gNM=]mMqg||N,
-   p!  ' |  ||"""'| |||jhljsw
-  ,@         ...  '|!'|j%m|M
- jj' .,wp@pw,     '|' '|
-/[|[eeeeeeeeeepp.
- [eeeeeeeeeeeeeep
- >@eeeeeeeeeeccqkH *||mkr
-  j%M        |jkk' ~nrn=i
- ! jrr*^~        'L''!
-  j lp;,  ./ @@  ,;\nmy
- i r @@@mMHm @@@@ ^****M*,p ;
- | @@@@@HHH]g@mM%%H, jmgpm% j
- ;;;%%%%k@[.,n|:;j%%k|k%%',[ [
- H|%%%k%%k]g@m@@H,jmgpm%}@]@
- "djjmkl,"JJ[|,,,wwxw;|#kjk'
-    %;'%km%%%%M|%%jkk|||
-     kjj%%kkkl'|||||||||'
-    |jmHa@ab%%kkmk%i!|,
-    @p|jj%%%%k'*, ;|
-   ]@@g          ,;%k
-   @@@@mgmp;... ,;;jj%%k
-  @@@@@@@@%%kgki!||jjjj%k@
-  ^[''  @@@@HHb%k(illljkjY%%% ;
- =[          ' HH%%H@gkilljjkk%%%.
-          </div>
-          
-          <div class="info-container">
-            <div class="user">hari@sankar ⚡ environment</div>
-            <div><span class="key">OS:</span> <span class="value">Linux, Ubuntu / macOS</span></div>
-            <div><span class="key">Uptime:</span> <span class="value">Leveling up daily</span></div>
-            <div><span class="key">Role:</span> <span class="value">AI Engineer &amp; Full-Stack Dev</span></div>
-            <div><span class="key">IDE:</span> <span class="value">Neovim, VS Code</span></div>
-            
-            <div class="section">Languages &amp; Stack</div>
-            <div><span class="key">Primary:</span> <span class="value">Python, Go, TypeScript</span></div>
-            <div><span class="key">Backend:</span> <span class="value">Node.js, Express, Fastify, Bun + Elysia</span></div>
-            <div><span class="key">AI / ML:</span> <span class="value">PyTorch, Scikit-Learn, LangChain</span></div>
-            
-            <div class="section">Links &amp; Details</div>
-            <div><span class="key">Website:</span> <span class="link-value">https://Hari-Skr.github.io</span></div>
-            <div><span class="key">Contact:</span> <span class="value">epicgeek11@gmail.com</span></div>
-            <div><span class="key">Hobbies:</span> <span class="value">Sci-Fi (Arthur C. Clarke), Fitness</span></div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </foreignObject>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 849 1519" width="849" height="1538" font-family="SFMono-Regular, Consolas, Menlo, monospace">
+<rect x="0" y="0" width="849" height="1538" rx="12" fill="#0d1117"/>
+<rect x="0" y="0" width="849" height="44" rx="12" fill="#161b22"/>
+<rect x="0" y="32" width="849" height="12" fill="#161b22"/>
+<line x1="0" y1="44" x2="849" y2="44" stroke="#30363d" stroke-width="1"/>
+<circle cx="26" cy="22" r="7" fill="#ff5f56"/>
+<circle cx="48" cy="22" r="7" fill="#ffbd2e"/>
+<circle cx="70" cy="22" r="7" fill="#27c93f"/>
+<text x="92" y="27" font-size="12" fill="#8b949e">hari-sankar@sankar: ~</text>
+<text xml:space="preserve" x="36" y="85" font-size="15" fill="#7ee787" textLength="777" lengthAdjust="spacingAndGlyphs">██╗  ██╗ █████╗ ██████╗ ██╗    ███████╗ █████╗ ███╗   ██╗██╗  ██╗ █████╗ ██████╗</text>
+<text xml:space="preserve" x="36" y="107" font-size="15" fill="#7ee787" textLength="777" lengthAdjust="spacingAndGlyphs">██║  ██║██╔══██╗██╔══██╗██║    ██╔════╝██╔══██╗████╗  ██║██║ ██╔╝██╔══██╗██╔══██╗</text>
+<text xml:space="preserve" x="36" y="129" font-size="15" fill="#7ee787" textLength="777" lengthAdjust="spacingAndGlyphs">███████║███████║██████╔╝██║    ███████╗███████║██╔██╗ ██║█████╔╝ ███████║██████╔╝</text>
+<text xml:space="preserve" x="36" y="151" font-size="15" fill="#7ee787" textLength="777" lengthAdjust="spacingAndGlyphs">██╔══██║██╔══██║██╔══██╗██║    ╚════██║██╔══██║██║╚██╗██║██╔═██╗ ██╔══██║██╔══██╗</text>
+<text xml:space="preserve" x="36" y="173" font-size="15" fill="#7ee787" textLength="777" lengthAdjust="spacingAndGlyphs">██║  ██║██║  ██║██║  ██║██║    ███████║██║  ██║██║ ╚████║██║  ██╗██║  ██║██║  ██║</text>
+<text xml:space="preserve" x="36" y="195" font-size="15" fill="#7ee787" textLength="777" lengthAdjust="spacingAndGlyphs">╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝╚═╝    ╚══════╝╚═╝  ╚═╝╚═╝  ╚═══╝╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝</text>
+<text xml:space="preserve" x="424.5" y="229" font-size="14" fill="#8b949e" text-anchor="middle">AI ENGINEER  ::  FULL-STACK DEVELOPER  ::  SYSTEM DESIGN</text>
+<text xml:space="preserve" x="36" y="255" font-size="13"><tspan fill="#7ee787">hari@sankar</tspan><tspan fill="#c9d1d9"> </tspan><tspan fill="#79c0ff">~</tspan><tspan fill="#c9d1d9"> % </tspan><tspan fill="#e3b341">whoami</tspan></text>
+<text xml:space="preserve" x="36" y="293" font-size="13"><tspan fill="#c9d1d9">  hari-sankar</tspan></text>
+<text xml:space="preserve" x="36" y="312" font-size="13"><tspan fill="#c9d1d9">  role    : AI Engineer / Full-Stack Developer</tspan></text>
+<text xml:space="preserve" x="36" y="331" font-size="13"><tspan fill="#c9d1d9">  status  : probably compiling something right now</tspan></text>
+<text xml:space="preserve" x="36" y="388" font-size="13"><tspan fill="#7ee787">hari@sankar</tspan><tspan fill="#c9d1d9"> </tspan><tspan fill="#79c0ff">~</tspan><tspan fill="#c9d1d9"> % </tspan><tspan fill="#e3b341">neofetch</tspan></text>
+<text xml:space="preserve" x="36" y="426" font-size="13"><tspan fill="#c9d1d9">  OS ............ Linux, Ubuntu / macOS</tspan></text>
+<text xml:space="preserve" x="36" y="445" font-size="13"><tspan fill="#c9d1d9">  Uptime ......... Leveling up daily</tspan></text>
+<text xml:space="preserve" x="36" y="464" font-size="13"><tspan fill="#c9d1d9">  Shell .......... zsh</tspan></text>
+<text xml:space="preserve" x="36" y="483" font-size="13"><tspan fill="#c9d1d9">  IDE ............ Neovim, VS Code</tspan></text>
+<text xml:space="preserve" x="36" y="502" font-size="13"><tspan fill="#c9d1d9">  Role ........... AI Engineer &amp; Full-Stack Dev</tspan></text>
+<text xml:space="preserve" x="36" y="521" font-size="13"><tspan fill="#c9d1d9">  Languages ...... Python, Go, TypeScript</tspan></text>
+<text xml:space="preserve" x="36" y="540" font-size="13"><tspan fill="#c9d1d9">  Backend ........ Node.js, Express, Fastify, Bun + Elysia</tspan></text>
+<text xml:space="preserve" x="36" y="559" font-size="13"><tspan fill="#c9d1d9">  AI / ML ........ PyTorch, Scikit-Learn, LangChain</tspan></text>
+<text xml:space="preserve" x="36" y="616" font-size="13"><tspan fill="#7ee787">hari@sankar</tspan><tspan fill="#c9d1d9"> </tspan><tspan fill="#79c0ff">~</tspan><tspan fill="#c9d1d9"> % </tspan><tspan fill="#e3b341">cat</tspan><tspan fill="#c9d1d9"> about.txt</tspan></text>
+<text xml:space="preserve" x="36" y="654" font-size="13"><tspan fill="#c9d1d9">  Passionate about building intelligent systems that fuse machine</tspan></text>
+<text xml:space="preserve" x="36" y="673" font-size="13"><tspan fill="#c9d1d9">  learning with scalable backend architecture.</tspan></text>
+<text xml:space="preserve" x="36" y="711" font-size="13"><tspan fill="#c9d1d9">  [x] Currently building ..... Full-stack apps w/ Bun + Elysia.js</tspan></text>
+<text xml:space="preserve" x="36" y="730" font-size="13"><tspan fill="#c9d1d9">  [x] Exploring ............... System Design, Distributed Systems, Networking</tspan></text>
+<text xml:space="preserve" x="36" y="749" font-size="13"><tspan fill="#c9d1d9">  [x] Open to .................. AI/ML collabs &amp; backend-heavy projects</tspan></text>
+<text xml:space="preserve" x="36" y="768" font-size="13"><tspan fill="#c9d1d9">  [x] Ask me about ............. Python, Go, TypeScript, AI/ML</tspan></text>
+<text xml:space="preserve" x="36" y="787" font-size="13"><tspan fill="#c9d1d9">  [x] Fun side .................. Arthur C. Clarke sci-fi fanatic</tspan></text>
+<text xml:space="preserve" x="36" y="806" font-size="13"><tspan fill="#c9d1d9">  [x] Bonus ...................... Home workouts &amp; discipline routines</tspan></text>
+<text xml:space="preserve" x="36" y="863" font-size="13"><tspan fill="#7ee787">hari@sankar</tspan><tspan fill="#c9d1d9"> </tspan><tspan fill="#79c0ff">~</tspan><tspan fill="#c9d1d9"> % </tspan><tspan fill="#e3b341">cat</tspan><tspan fill="#c9d1d9"> links.txt</tspan></text>
+<text xml:space="preserve" x="36" y="901" font-size="13"><tspan fill="#a5d6ff">  website   -&gt;  https://Hari-Srk.github.io</tspan></text>
+<text xml:space="preserve" x="36" y="920" font-size="13"><tspan fill="#a5d6ff">  email     -&gt;  harisankar.builds@gmail.com</tspan></text>
+<text xml:space="preserve" x="36" y="939" font-size="13"><tspan fill="#a5d6ff">  github    -&gt;  https://github.com/Hari-Skr</tspan></text>
+<text xml:space="preserve" x="36" y="996" font-size="13"><tspan fill="#7ee787">hari@sankar</tspan><tspan fill="#c9d1d9"> </tspan><tspan fill="#79c0ff">~</tspan><tspan fill="#c9d1d9"> % </tspan><tspan fill="#e3b341">ls</tspan><tspan fill="#c9d1d9"> -la ./tech_stack/</tspan></text>
+<text xml:space="preserve" x="36" y="1034" font-size="13"><tspan fill="#c9d1d9">  drwxr-xr-x   ai_ml/</tspan></text>
+<text xml:space="preserve" x="36" y="1053" font-size="13"><tspan fill="#c9d1d9">  drwxr-xr-x   backend/</tspan></text>
+<text xml:space="preserve" x="36" y="1072" font-size="13"><tspan fill="#c9d1d9">  drwxr-xr-x   frontend/</tspan></text>
+<text xml:space="preserve" x="36" y="1091" font-size="13"><tspan fill="#c9d1d9">  drwxr-xr-x   data_ops/</tspan></text>
+<text xml:space="preserve" x="36" y="1129" font-size="13"><tspan fill="#c9d1d9">  ai_ml/      -&gt;  PyTorch, Scikit-Learn, OpenCV, Hugging Face, LangChain, Python</tspan></text>
+<text xml:space="preserve" x="36" y="1148" font-size="13"><tspan fill="#c9d1d9">  backend/    -&gt;  Go, TypeScript, JavaScript, C++, Node.js, Express, NestJS, Django, Flask, FastAPI</tspan></text>
+<text xml:space="preserve" x="36" y="1167" font-size="13"><tspan fill="#c9d1d9">  frontend/   -&gt;  React, Redux, TailwindCSS, HTML, CSS</tspan></text>
+<text xml:space="preserve" x="36" y="1186" font-size="13"><tspan fill="#c9d1d9">  data_ops/   -&gt;  PostgreSQL, MySQL, MongoDB, Cassandra, Docker, Linux, Git, Postman, Jest</tspan></text>
+<text xml:space="preserve" x="36" y="1243" font-size="13"><tspan fill="#7ee787">hari@sankar</tspan><tspan fill="#c9d1d9"> </tspan><tspan fill="#79c0ff">~</tspan><tspan fill="#c9d1d9"> % </tspan><tspan fill="#e3b341">cat</tspan><tspan fill="#c9d1d9"> focus.log</tspan></text>
+<text xml:space="preserve" x="36" y="1281" font-size="13"><tspan fill="#3fb950">  [OK]</tspan><tspan fill="#c9d1d9"> Building scalable backend systems</tspan></text>
+<text xml:space="preserve" x="36" y="1300" font-size="13"><tspan fill="#3fb950">  [OK]</tspan><tspan fill="#c9d1d9"> Mastering system design fundamentals</tspan></text>
+<text xml:space="preserve" x="36" y="1319" font-size="13"><tspan fill="#3fb950">  [OK]</tspan><tspan fill="#c9d1d9"> Integrating AI into real-world applications</tspan></text>
+<text xml:space="preserve" x="36" y="1338" font-size="13"><tspan fill="#3fb950">  [OK]</tspan><tspan fill="#c9d1d9"> Writing clean, efficient, production-grade code</tspan></text>
+<text xml:space="preserve" x="36" y="1376" font-size="13"><tspan fill="#c9d1d9">  process exited with code 0</tspan></text>
+<text xml:space="preserve" x="36" y="1433" font-size="13"><tspan fill="#7ee787">hari@sankar</tspan><tspan fill="#c9d1d9"> </tspan><tspan fill="#79c0ff">~</tspan><tspan fill="#c9d1d9"> % </tspan><tspan fill="#e3b341">exit</tspan></text>
+<text xml:space="preserve" x="36" y="1471" font-size="13"><tspan fill="#c9d1d9">  process exited with code 0</tspan></text>
+<text xml:space="preserve" x="36" y="1509" font-size="13"><tspan fill="#7ee787">hari@sankar</tspan><tspan fill="#c9d1d9"> </tspan><tspan fill="#79c0ff">~</tspan><tspan fill="#c9d1d9"> % </tspan><tspan fill="#e3b341">_</tspan></text>
 </svg>
