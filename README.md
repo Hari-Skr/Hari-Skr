@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <a href="https://Hari-Srk.github.io"><img src="https://img.shields.io/badge/WEBSITE-000000?style=for-the-badge&logo=googlechrome&logoColor=0f0&labelColor=000" alt="Website" /></a>
+  <a href="https://Hari-Skr.github.io"><img src="https://img.shields.io/badge/WEBSITE-000000?style=for-the-badge&logo=googlechrome&logoColor=0f0&labelColor=000" alt="Website" /></a>
   <a href="mailto:harisankar.builds@gmail.com"><img src="https://img.shields.io/badge/EMAIL-000000?style=for-the-badge&logo=gmail&logoColor=0f0&labelColor=000" alt="Email" /></a>
   <a href="https://github.com/Hari-Skr"><img src="https://img.shields.io/badge/GITHUB-000000?style=for-the-badge&logo=github&logoColor=0f0&labelColor=000" alt="GitHub" /></a>
 </p>
