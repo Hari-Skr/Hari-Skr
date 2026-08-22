@@ -20,15 +20,3 @@
 <p align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=Hari-Skr&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
 </p>
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Hari-Skr&theme=react-dark&hide_border=true&bg_color=0d1117" alt="Activity Graph" />
-</p>
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Hari-Skr&theme=darkhub&no-frame=true&row=1&column=7" alt="GitHub Trophies" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-visitor-counter.vercel.app/?username=Hari-Skr&label=TERMINAL+VISITS&color=0e1116&style=flat" alt="Visitor Counter" />
-</p>
