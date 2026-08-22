@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./Ascii.svg" alt="Hari Sankar terminal session" width="100%">
+  <img src="./Terminal.svg" alt="Hari Sankar terminal session" width="100%">
 </p>
 
 [![WEBSITE](https://img.shields.io/badge/WEBSITE-000000?style=for-the-badge&logo=googlechrome&logoColor=0f0&labelColor=000)](https://Hari-Srk.github.io)
