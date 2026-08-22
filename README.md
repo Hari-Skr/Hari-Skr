@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./Terminal.svg" alt="Hari Sankar terminal session" width="100%">
+  <img src="./Profile.svg" alt="Hari Sankar terminal session" width="100%">
 </p>
 
 <p align="center">
