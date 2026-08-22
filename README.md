@@ -1,80 +1,28 @@
-<h1 align="center">👋 Hey, I'm Hari Sankar</h1>
-<h3 align="center">🚀 AI Engineer • Full-Stack Developer • System Design Enthusiast</h3>
-
-<p align="center">
-  <a href="mailto:epicgeek11@gmail.com">
-    <img src="https://img.shields.io/badge/Email-Contact%20Me-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
-  </a>
-  <a href="https://github.com/Hari-Skr">
-    <img src="https://img.shields.io/badge/GitHub-@Hari--Skr-100000?style=for-the-badge&logo=github&logoColor=white" />
-  </a>
-</p>
-
----
-
-## 🧠 About Me
-
-I’m passionate about building **intelligent systems** that combine machine learning with scalable backend architecture.
-
-- 🔭 Currently building: **Full-stack apps with Bun + Elysia.js**
-- 🌱 Exploring: **System Design, Distributed Systems & Networking**
-- 🤝 Open to: **AI/ML collaborations & backend-heavy projects**
-- 💬 Ask me about: **Python, Go, TypeScript, AI/ML**
-- 📚 Fun side: Huge fan of **Arthur C. Clarke sci-fi**
-- 🏋️ Bonus: Into **home workouts & discipline-based routines**
-
----
-
-## ⚡ Tech Stack
-
-### 🧩 AI / ML / Data
-<p>
-  <img src="https://skillicons.dev/icons?i=pytorch,sklearn,opencv" />
-  <img src="https://cdn.simpleicons.org/huggingface/FFD21E" width="40"/>
-  <img src="https://cdn.simpleicons.org/langchain/1C3C3C" width="40"/>
-  <img src="https://skillicons.dev/icons?i=python" />
-</p>
-
----
-
-### 🛠 Backend & Core
-<p>
-  <img src="https://skillicons.dev/icons?i=go,ts,js,cpp,nodejs,express,nestjs,django,flask,fastapi" />
-</p>
-
----
-
-### 🎨 Frontend
-<p>
-  <img src="https://skillicons.dev/icons?i=react,redux,tailwind,html,css" />
-</p>
-
----
-
-### 🗄 Databases & DevOps
-<p>
-  <img src="https://skillicons.dev/icons?i=postgres,mysql,mongodb,cassandra,docker,linux,git,jest" />
-</p>
-
----
-
-## 📊 GitHub Insights
-
-<p align="center">
-  <img src="https://github-stats-extended.vercel.app/api?username=Hari-Skr&theme=tokyonight&layout=compact&hide_border=true" width="48%"/>
-  <img src="https://github-stats-extended.vercel.app/api/top-langs?username=Hari-Skr&layout=compact&theme=tokyonight&hide_border=true" width="48%"/>
-</p>
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Hari-Skr&theme=tokyonight&hide_border=true" width="60%"/>
-</p>
-
----
-
-## 🚀 What I'm Focused On
-
-```text
-✔ Building scalable backend systems
-✔ Mastering system design fundamentals
-✔ Integrating AI into real-world applications
-✔ Writing clean, efficient, production-grade code
+<pre>
+<img align="right" src="https://github-stats-extended.vercel.app/api?username=Hari-Skr&theme=tokyonight&hide_border=true" width="42%"/>
+      gM'@%%ONw.,                     <b>hari@sankar</b> ─────────────
+    .M' ||  *%%gNM=]mMqg||N,          ----------------------------------
+   p!  ' |  ||"""'| |||jhljsw         <b>OS:</b> ........ Linux, Ubuntu / macOS
+   ,@         ...  '|!'|j%m|M         <b>Uptime:</b> ..... Leveling up daily
+  jj' .,wp@pw,     '|' '|              <b>Host:</b> ....... Localhost (Earth)
+ /{[|eeeeeeeeeepp.                     <b>Role:</b> ....... AI Engineer & Full-Stack Dev
+  [eeeeeeeeeeeeeep                  <b>IDE:</b> ........ Neovim, VS Code
+  >@eeeeeeeeeeccqkH *||mkr          
+   j%M        |jkk' ~nrn=i          <b>Languages.Primary:</b> ... Python, Go, TypeScript
+  ! jrr*^~        'L''!             <b>Languages.Backend:</b> ... Node.js, Express, Fastify
+   j lp;,  ./ @@  ,;\nmy            <b>Languages.AI/ML:</b> .... PyTorch, Scikit-Learn
+  i r @@@mMHm @@@@ ^****M*,p ;      
+  | @@@@@HHH]g@mM%%H, jmgpm% j      <b>Hobbies.Code:</b> ....... Bun + Elysia.js apps
+  ;;;%%%%k@[.,n|:;j%%k|k%%',[ [      <b>Hobbies.SciFi:</b> ...... Arthur C. Clarke novels
+  H|%%%k%%k]g@m@@H,jmgpm%}@]@        <b>Hobbies.Fitness:</b> .... Home workouts & discipline
+  "djjmkl,"JJ[|,,,wwxw;|#kjk'       
+     %;'%km%%%%M|%%jkk|||            - <b>Contact</b>
+      kjj%%kkkl'|||||||||'            Email: ....... epicgeek11@gmail.com
+     |jmHa@ab%%kkmk%i!|,              GitHub: ...... @Hari-Skr
+     @p|jj%%%%k'*, ;|                 LinkedIn: .... (add if needed)
+    ]@@g          ,;%k              
+    @@@@mgmp;... ,;;jj%%k           - <b>Focus Areas</b>
+   @@@@@@@@%%kgki!||jjjj%k@         ✔ Building scalable backend systems
+   ^[''  @@@@HHb%k(illljkjY%%% ;    ✔ Mastering system design & distributed nets
+  =[          ' HH%%H@gkilljjkk%%%. ✔ Integrating AI into real-world tools
+</pre>
