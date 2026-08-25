@@ -10,19 +10,6 @@
   <!-- Outer terminal: solid fill only, no border/stroke -->
   <rect x="0" y="0" width="849" height="1538" rx="12" fill="#0d1117" filter="url(#terminalShadow)"/>
 
-  <!-- macOS-style terminal title bar -->
-  <path d="M12 0 H837 Q849 0 849 12 V48 H0 V12 Q0 0 12 0 Z" fill="#161b22"/>
-
-  <!-- Window controls -->
-  <circle cx="24" cy="24" r="6" fill="#ff5f56"/>
-  <circle cx="44" cy="24" r="6" fill="#ffbd2e"/>
-  <circle cx="64" cy="24" r="6" fill="#27c93f"/>
-
-  <!-- Terminal title -->
-  <text x="424.5" y="29" text-anchor="middle" font-size="12" fill="#8b949e">
-    hari@sankar: ~
-  </text>
-
   <!-- ASCII heading -->
   <text xml:space="preserve" x="36" y="85" font-size="15" fill="#1B65A6" textLength="777" lengthAdjust="spacingAndGlyphs">██╗  ██╗ █████╗ ██████╗ ██╗    ███████╗ █████╗ ███╗   ██╗██╗  ██╗ █████╗ ██████╗</text>
   <text xml:space="preserve" x="36" y="107" font-size="15" fill="#1B65A6" textLength="777" lengthAdjust="spacingAndGlyphs">██║  ██║██╔══██╗██╔══██╗██║    ██╔════╝██╔══██╗████╗  ██║██║ ██╔╝██╔══██╗██╔══██╗</text>
