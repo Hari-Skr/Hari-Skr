@@ -28,8 +28,8 @@
   <text xml:space="preserve" x="36" y="388" font-size="13"><tspan fill="#1B65A6">hari@sankar</tspan><tspan fill="#ffffff"> </tspan><tspan fill="#D2AE7D">~</tspan><tspan fill="#D2AE7D"> % </tspan><tspan fill="#ffffff">neofetch</tspan></text>
   <text xml:space="preserve" x="36" y="426" font-size="13"><tspan fill="#ffffff">  OS ............ Linux, Ubuntu / macOS</tspan></text>
   <text xml:space="preserve" x="36" y="445" font-size="13"><tspan fill="#ffffff">  Uptime ......... Leveling up daily</tspan></text>
-  <text xml:space="preserve" x="36" y="464" font-size="13"><tspan fill="#ffffff">  Shell .......... zsh</tspan></text>
-  <text xml:space="preserve" x="36" y="483" font-size="13"><tspan fill="#ffffff">  IDE ............ Neovim, VS Code</tspan></text>
+  <text xml:space="preserve" x="36" y="464" font-size="13"><tspan fill="#ffffff">  Shell .......... agnostic — bash, zsh, whatever's on hand</tspan></text>
+  <text xml:space="preserve" x="36" y="483" font-size="13"><tspan fill="#ffffff">  IDE ............ VS Code</tspan></text>
   <text xml:space="preserve" x="36" y="502" font-size="13"><tspan fill="#ffffff">  Role ........... AI Engineer &amp; Full-Stack Dev</tspan></text>
   <text xml:space="preserve" x="36" y="521" font-size="13"><tspan fill="#ffffff">  Languages ...... Python, Go, TypeScript</tspan></text>
   <text xml:space="preserve" x="36" y="540" font-size="13"><tspan fill="#ffffff">  Backend ........ Node.js, Express, Fastify, Bun + Elysia</tspan></text>
