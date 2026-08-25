@@ -10,7 +10,7 @@
 
 <br/>
 
-<img src="./me.svg" alt="Hari Sankar — animated terminal banner" width="100%" />
+<img src="./hero.svg" alt="Hari Sankar — animated terminal banner" width="100%" />
 
 
 ### 📊 GitHub Insights
