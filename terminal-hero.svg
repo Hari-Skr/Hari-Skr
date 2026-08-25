@@ -1,0 +1,652 @@
+<svg
+  fill="none"
+  viewBox="0 0 900 1370"
+  width="900"
+  height="1370"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <foreignObject
+    x="0"
+    y="0"
+    width="900"
+    height="1370"
+  >
+    <div xmlns="http://www.w3.org/1999/xhtml">
+
+      <style>
+        * {
+          box-sizing: border-box;
+          margin: 0;
+          padding: 0;
+        }
+
+        /* =========================
+           WRAPPER
+           ========================= */
+
+        .wrap {
+          width: 900px;
+          min-height: 0;
+
+          display: flex;
+          align-items: flex-start;
+          justify-content: center;
+
+          padding: 24px;
+
+          background: #05070a;
+
+          font-family:
+            'SFMono-Regular',
+            Consolas,
+            Menlo,
+            monospace;
+        }
+
+        /* =========================
+           TERMINAL
+           ========================= */
+
+        .term {
+          width: 852px;
+
+          min-height: 0;
+
+          border-radius: 12px;
+
+          overflow: hidden;
+
+          background: #0d1117;
+
+          box-shadow:
+            0 0 18px rgba(27,101,166,0.45),
+            0 0 0 1px rgba(27,101,166,0.55);
+        }
+
+        /* =========================
+           TITLE BAR
+           ========================= */
+
+        .titlebar {
+          height: 42px;
+
+          display: flex;
+          align-items: center;
+
+          gap: 8px;
+
+          padding: 0 14px;
+
+          background: #161b22;
+
+          border-bottom: 1px solid #21262d;
+        }
+
+        .dot {
+          width: 11px;
+          height: 11px;
+
+          flex-shrink: 0;
+
+          border-radius: 50%;
+        }
+
+        .dot.red {
+          background: #ff5f56;
+        }
+
+        .dot.yellow {
+          background: #ffbd2e;
+        }
+
+        .dot.green {
+          background: #27c93f;
+        }
+
+        .title {
+          flex: 1;
+
+          text-align: center;
+
+          transform: translateX(-20px);
+
+          color: #8b949e;
+
+          font-size: 12px;
+
+          letter-spacing: 0.3px;
+        }
+
+        /* =========================
+           TERMINAL BODY
+           ========================= */
+
+        .body {
+          padding: 26px 28px 24px;
+
+          color: #ffffff;
+
+          font-size: 13px;
+
+          line-height: 19px;
+        }
+
+        /* =========================
+           COMMAND LINE
+           ========================= */
+
+        .command {
+          display: flex;
+
+          align-items: baseline;
+
+          min-height: 19px;
+
+          margin-top: 5px;
+
+          white-space: nowrap;
+        }
+
+        .prompt-user {
+          color: #1B65A6;
+
+          font-weight: 600;
+        }
+
+        .prompt-symbol {
+          color: #D2AE7D;
+        }
+
+        .cmd {
+          color: #ffffff;
+        }
+
+        /* =========================
+           OUTPUT
+           ========================= */
+
+        .output {
+          color: #8b949e;
+
+          margin: 19px 0 32px;
+        }
+
+        .output div {
+          min-height: 19px;
+        }
+
+        .key {
+          color: #1B65A6;
+
+          font-weight: 600;
+        }
+
+        .val {
+          color: #8b949e;
+        }
+
+        .chk {
+          color: #D2AE7D;
+
+          font-weight: 600;
+        }
+
+        .diff {
+          color: #27c93f;
+        }
+
+        /* =========================
+           SECTION SPACING
+           ========================= */
+
+        .section {
+          margin-bottom: 8px;
+        }
+
+        .blank {
+          height: 12px;
+        }
+
+        /* =========================
+           EXIT
+           ========================= */
+
+        .exit-section {
+          margin-bottom: 0;
+        }
+
+        .exit-section .output {
+          margin-bottom: 0;
+        }
+      </style>
+
+
+      <div class="wrap">
+
+        <div class="term">
+
+          <!-- =================================================
+               TITLE BAR
+               ================================================= -->
+
+          <div class="titlebar">
+
+            <div class="dot red"></div>
+            <div class="dot yellow"></div>
+            <div class="dot green"></div>
+
+            <div class="title">
+              hari@sankar: ~
+            </div>
+
+          </div>
+
+
+          <!-- =================================================
+               TERMINAL CONTENT
+               ================================================= -->
+
+          <div class="body">
+
+
+            <!-- =================================================
+                 WHOAMI
+                 ================================================= -->
+
+            <div class="section">
+
+              <div class="command">
+
+                <span class="prompt-user">
+                  hari@sankar
+                </span>
+
+                <span class="prompt-symbol">
+                  &nbsp;~ %&nbsp;
+                </span>
+
+                <span class="cmd">
+                  whoami
+                </span>
+
+              </div>
+
+              <div class="output">
+
+                <div>
+                  &nbsp;&nbsp;hari-sankar — AI Engineer / Full-Stack Developer
+                </div>
+
+              </div>
+
+            </div>
+
+
+            <!-- =================================================
+                 NEOFETCH
+                 ================================================= -->
+
+            <div class="section">
+
+              <div class="command">
+
+                <span class="prompt-user">
+                  hari@sankar
+                </span>
+
+                <span class="prompt-symbol">
+                  &nbsp;~ %&nbsp;
+                </span>
+
+                <span class="cmd">
+                  neofetch
+                </span>
+
+              </div>
+
+              <div class="output">
+
+                <div>
+                  <span class="key">OS ............</span>
+                  <span class="val">&nbsp;Linux, Ubuntu / macOS</span>
+                </div>
+
+                <div>
+                  <span class="key">Uptime .........</span>
+                  <span class="val">&nbsp;Leveling up daily</span>
+                </div>
+
+                <div>
+                  <span class="key">Shell ..........</span>
+                  <span class="val">&nbsp;agnostic — bash, zsh, whatever's on hand</span>
+                </div>
+
+                <div>
+                  <span class="key">Role ...........</span>
+                  <span class="val">&nbsp;AI Engineer &amp; Full-Stack Dev</span>
+                </div>
+
+                <div>
+                  <span class="key">Languages ......</span>
+                  <span class="val">&nbsp;Python, Go, TypeScript</span>
+                </div>
+
+                <div>
+                  <span class="key">Backend ........</span>
+                  <span class="val">&nbsp;Node.js, Express, Fastify, Bun + Elysia</span>
+                </div>
+
+                <div>
+                  <span class="key">AI / ML ........</span>
+                  <span class="val">&nbsp;PyTorch, Scikit-Learn, LangChain</span>
+                </div>
+
+              </div>
+
+            </div>
+
+
+            <!-- =================================================
+                 ABOUT
+                 ================================================= -->
+
+            <div class="section">
+
+              <div class="command">
+
+                <span class="prompt-user">
+                  hari@sankar
+                </span>
+
+                <span class="prompt-symbol">
+                  &nbsp;~ %&nbsp;
+                </span>
+
+                <span class="cmd">
+                  cat about.txt
+                </span>
+
+              </div>
+
+              <div class="output">
+
+                <div>
+                  Passionate about building intelligent systems that fuse machine
+                </div>
+
+                <div>
+                  learning with scalable backend architecture.
+                </div>
+
+                <div class="blank"></div>
+
+                <div>
+                  <span class="chk">[x]</span>
+                  Currently building ..... Full-stack apps w/ Bun + Elysia.js
+                </div>
+
+                <div>
+                  <span class="chk">[x]</span>
+                  Exploring ............... System Design, Distributed Systems, Networking
+                </div>
+
+                <div>
+                  <span class="chk">[x]</span>
+                  Open to .................. AI/ML collabs &amp; backend-heavy projects
+                </div>
+
+                <div>
+                  <span class="chk">[x]</span>
+                  Ask me about ............. Python, Go, TypeScript, AI/ML
+                </div>
+
+                <div>
+                  <span class="chk">[x]</span>
+                  Fun side .................. Arthur C. Clarke sci-fi fanatic
+                </div>
+
+                <div>
+                  <span class="chk">[x]</span>
+                  Bonus ...................... Home workouts &amp; discipline routines
+                </div>
+
+              </div>
+
+            </div>
+
+
+            <!-- =================================================
+                 AI WORKFLOW
+                 ================================================= -->
+
+            <div class="section">
+
+              <div class="command">
+
+                <span class="prompt-user">
+                  hari@sankar
+                </span>
+
+                <span class="prompt-symbol">
+                  &nbsp;~ %&nbsp;
+                </span>
+
+                <span class="cmd">
+                  cat ai_workflow.txt
+                </span>
+
+              </div>
+
+              <div class="output">
+
+                <div>
+                  <span class="chk">[x]</span>
+                  AI CLI tools ............ OpenCode, Codex, Claude Code, Antigravity
+                </div>
+
+                <div>
+                  <span class="chk">[x]</span>
+                  Usage philosophy ........ Debug assistant &amp; coding coach, not autopilot
+                </div>
+
+                <div>
+                  <span class="chk">[x]</span>
+                  I still read, understand &amp; own every line I ship
+                </div>
+
+              </div>
+
+            </div>
+
+
+            <!-- =================================================
+                 LINKS
+                 ================================================= -->
+
+            <div class="section">
+
+              <div class="command">
+
+                <span class="prompt-user">
+                  hari@sankar
+                </span>
+
+                <span class="prompt-symbol">
+                  &nbsp;~ %&nbsp;
+                </span>
+
+                <span class="cmd">
+                  cat links.txt
+                </span>
+
+              </div>
+
+              <div class="output">
+
+                <div>
+                  website  -&gt; https://Hari-Srk.github.io
+                </div>
+
+                <div>
+                  email    -&gt; harisankar.builds@gmail.com
+                </div>
+
+                <div>
+                  github   -&gt; https://github.com/Hari-Skr
+                </div>
+
+              </div>
+
+            </div>
+
+
+            <!-- =================================================
+                 TECH STACK
+                 ================================================= -->
+
+            <div class="section">
+
+              <div class="command">
+
+                <span class="prompt-user">
+                  hari@sankar
+                </span>
+
+                <span class="prompt-symbol">
+                  &nbsp;~ %&nbsp;
+                </span>
+
+                <span class="cmd">
+                  ls -la ./tech_stack/
+                </span>
+
+              </div>
+
+              <div class="output">
+
+                <div>
+                  drwxr-xr-x   ai_ml/
+                </div>
+
+                <div>
+                  drwxr-xr-x   backend/
+                </div>
+
+                <div>
+                  drwxr-xr-x   frontend/
+                </div>
+
+                <div>
+                  drwxr-xr-x   data_ops/
+                </div>
+
+                <div class="blank"></div>
+
+                <div>
+                  ai_ml/      -&gt; PyTorch, Scikit-Learn, OpenCV, Hugging Face, LangChain, Python
+                </div>
+
+                <div>
+                  backend/    -&gt; Go, TypeScript, JavaScript, C++, Node.js, Express, NestJS, Django, Flask, FastAPI
+                </div>
+
+                <div>
+                  frontend/   -&gt; React, Redux, TailwindCSS, HTML, CSS
+                </div>
+
+                <div>
+                  data_ops/   -&gt; PostgreSQL, MySQL, MongoDB, Cassandra, Docker, Linux, Git, Postman, Jest
+                </div>
+
+              </div>
+
+            </div>
+
+
+            <!-- =================================================
+                 FOCUS
+                 ================================================= -->
+
+            <div class="section">
+
+              <div class="command">
+
+                <span class="prompt-user">
+                  hari@sankar
+                </span>
+
+                <span class="prompt-symbol">
+                  &nbsp;~ %&nbsp;
+                </span>
+
+                <span class="cmd">
+                  cat focus.log
+                </span>
+
+              </div>
+
+              <div class="output diff">
+
+                <div>
+                  + [OK] Building scalable backend systems
+                </div>
+
+                <div>
+                  + [OK] Mastering system design fundamentals
+                </div>
+
+                <div>
+                  + [OK] Integrating AI into real-world applications, hands on the keyboard
+                </div>
+
+                <div>
+                  + [OK] Writing clean, efficient, production-grade code
+                </div>
+
+              </div>
+
+            </div>
+
+
+            <!-- =================================================
+                 EXIT
+                 ================================================= -->
+
+            <div class="section exit-section">
+
+              <div class="command">
+
+                <span class="prompt-user">
+                  hari@sankar
+                </span>
+
+                <span class="prompt-symbol">
+                  &nbsp;~ %&nbsp;
+                </span>
+
+                <span class="cmd">
+                  exit
+                </span>
+
+              </div>
+
+              <div class="output">
+
+                <div>
+                  Process completed with exit code 0
+                </div>
+
+              </div>
+
+            </div>
+
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+  </foreignObject>
+</svg>
