@@ -12,12 +12,11 @@
 
 <img src="./hero.svg" alt="Hari Sankar — animated terminal banner" width="100%" />
 
-
 ### 📊 GitHub Insights
 
-<img src="https://github-stats-extended.vercel.app/api?username=Hari-Skr&theme=tokyonight&layout=compact&hide_border=true" alt="GitHub Stats" />
-<img src="https://github-stats-extended.vercel.app/api/top-langs?username=Hari-Skr&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Hari-Skr&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
-
+<div align="center">
+  <img src="https://github-stats-extended.vercel.app/api?username=Hari-Skr&theme=tokyonight&layout=compact&hide_border=true" alt="GitHub Stats" />
+  <img src="https://github-stats-extended.vercel.app/api/top-langs?username=Hari-Skr&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
+  <br/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Hari-Skr&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
 </div>
